@@ -5,7 +5,7 @@ public class Dev {
         
         Scanner sc = new Scanner(System.in);
         float a = sc.nextFloat();
-        System.out.print("%f.2");
+        System.out.println(a);
 
         sc.close();
     }
