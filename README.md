@@ -1,4 +1,4 @@
-# java
+# [java](./java.md)
 
 - [java](#java)
   - [Type conversions](#type-conversions)
