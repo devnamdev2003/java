@@ -11,6 +11,8 @@
     - [**7️⃣ Naming Conventions in Java Collections**](#7️⃣-naming-conventions-in-java-collections)
       - [**Summary Table 📋**](#summary-table-)
       - [**Final Tip 💡**](#final-tip-)
+  - [Languages That Supports OOPS Property](#languages-that-supports-oops-property)
+    - [**Key Takeaways**](#key-takeaways)
 ## **Java Naming Conventions** 🚀
 
 Naming conventions in Java help make code **readable, maintainable, and consistent**. Here are the standard naming rules:
@@ -125,3 +127,41 @@ Naming conventions in Java help make code **readable, maintainable, and consiste
 ✅ **Follow these conventions** to make your Java code clean and professional.  
 ❌ **Avoid single-letter variable names** (except for loop counters).  
 💡 **Be descriptive**—choose meaningful names!
+
+---
+
+## Languages That Supports OOPS Property
+Here’s an expanded table covering **20 OOP properties** across **C, C++, Java, Python, C#, and JavaScript**:  
+
+| **OOP Property**           | **C**  | **C++** | **Java** | **Python** | **C#** | **JavaScript** |
+|---------------------------|--------|--------|--------|--------|--------|--------------|
+| **Class & Objects**       | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes (ES6 Classes) |
+| **Encapsulation**         | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes (Using Closures) |
+| **Data Hiding**           | ❌ No | ✅ Yes (Private Members) | ✅ Yes | ✅ Yes (Using `_` & `__`) | ✅ Yes | ✅ Limited (Private Fields in ES6) |
+| **Inheritance**           | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes (Prototype-based) |
+| **Single Inheritance**    | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
+| **Multiple Inheritance**  | ❌ No | ✅ Yes | ❌ No (Only via Interfaces) | ✅ Yes | ❌ No | ❌ No |
+| **Multilevel Inheritance**| ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
+| **Hybrid Inheritance**    | ❌ No | ✅ Yes | ❌ No (Using Interfaces) | ✅ Yes (Using Mixins) | ✅ Yes (Using Interfaces) | ❌ No |
+| **Polymorphism**          | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes (Duck Typing) |
+| **Method Overloading**    | ❌ No | ✅ Yes | ✅ Yes | ❌ No (Simulated) | ✅ Yes | ❌ No |
+| **Method Overriding**     | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
+| **Abstraction**           | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Partial (No true abstract classes) |
+| **Abstract Classes**      | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ❌ No |
+| **Interfaces**            | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes (Duck Typing) | ✅ Yes | ❌ No |
+| **Constructors**          | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
+| **Destructors**           | ❌ No | ✅ Yes | ❌ No (Uses Garbage Collection) | ❌ No (Uses Garbage Collection) | ✅ Yes (Finalizers) | ❌ No |
+| **Operator Overloading**  | ❌ No | ✅ Yes | ❌ No | ✅ Yes | ✅ Yes | ❌ No |
+| **Function Overloading**  | ❌ No | ✅ Yes | ✅ Yes | ❌ No | ✅ Yes | ❌ No |
+| **Static Binding**        | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
+| **Dynamic Binding**       | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
+| **Multiple Dispatch**     | ❌ No | ❌ No | ❌ No | ✅ Yes | ❌ No | ❌ No |
+| **Exception Handling**    | ❌ No | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes (Try-Catch) |
+
+### **Key Takeaways**
+1. **C lacks OOP features** completely.
+2. **C++ supports full OOP**, including multiple inheritance and operator overloading.
+3. **Java is fully OOP** but **does not support multiple inheritance** (replaced by interfaces).
+4. **Python supports all OOP features**, including multiple inheritance.
+5. **C# is fully OOP**, but it does **not support multiple inheritance** (uses interfaces instead).
+6. **JavaScript uses prototype-based inheritance**, lacks method overloading, and has limited abstraction.
